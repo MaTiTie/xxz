@@ -1,0 +1,96 @@
+2019-07-08 22:18:46 下午[ Method: app.DataGateWayApp.main(DataGateWayApp.java:32) ]
+ERROR:------------------------start gateway app-----------------------------
+
+2019-07-08 22:19:00 下午[ Method: app.DataGateWayApp.startApp(DataGateWayApp.java:143) ]
+ERROR:can not get clientId,start error
+2019-07-08 22:19:00 下午[ Method: mqtt.MqttHandler.mqttConnect(MqttHandler.java:58) ]
+ERROR:start mqtt error for client is null
+2019-07-08 22:19:00 下午[ Method: app.DataGateWayApp.startApp(DataGateWayApp.java:156) ]
+ERROR:start mqtt error
+2019-07-08 22:19:00 下午[ Method: ble.BleController.openSerialPort(BleController.java:213) ]
+ERROR:can not find data collector!
+2019-07-08 22:19:46 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:46) ]
+ERROR:mqttHandler error
+2019-07-08 22:19:46 下午[ Method: mqtt.MqttHandler.mqttConnect(MqttHandler.java:58) ]
+ERROR:start mqtt error for client is null
+2019-07-08 22:19:46 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:72) ]
+ERROR:bleController error
+2019-07-08 22:19:58 下午[ Method: ble.BleController.openSerialPort(BleController.java:213) ]
+ERROR:can not find data collector!
+2019-07-08 22:20:06 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:46) ]
+ERROR:mqttHandler error
+2019-07-08 22:20:06 下午[ Method: mqtt.MqttHandler.mqttConnect(MqttHandler.java:58) ]
+ERROR:start mqtt error for client is null
+2019-07-08 22:20:06 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:72) ]
+ERROR:bleController error
+2019-07-08 22:20:12 下午[ Method: ble.BleController.readPort(BleController.java:401) ]
+ERROR:data collector read uart error
+2019-07-08 22:20:18 下午[ Method: ble.BleController.readPort(BleController.java:404) ]
+ERROR:java.io.IOException: No error in nativeavailable
+2019-07-08 22:20:26 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:46) ]
+ERROR:mqttHandler error
+2019-07-08 22:20:27 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:72) ]
+ERROR:bleController error
+2019-07-08 22:20:50 下午[ Method: app.DataGateWayApp.main(DataGateWayApp.java:32) ]
+ERROR:------------------------start gateway app-----------------------------
+
+2019-07-08 22:20:59 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:24:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:28:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:31:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:34:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:38:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:41:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:44:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:48:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:51:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:54:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 22:58:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:01:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:04:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:08:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:11:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:14:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:18:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:21:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:24:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:28:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:31:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:34:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:38:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:41:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:44:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:48:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:51:30 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:54:50 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册
+2019-07-08 23:58:10 下午[ Method: shop.ShopInfo.glsShopInfoHandler(ShopInfo.java:87) ]
+ERROR:设备未注册

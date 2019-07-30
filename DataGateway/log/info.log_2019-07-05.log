@@ -1,0 +1,472 @@
+2019-07-05 00:00:29 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:03:15 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:06:04 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 00:07:46 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:08:55 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:12:43 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:22:32 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:83
+2019-07-05 00:30:30 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 00:31:39 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 00:31:51 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 00:34:37 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:40:35 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:41:06 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:45:34 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:52:55 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:54:25 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:54:47 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 00:58:29 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:00:06 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:16:16 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 01:18:50 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 01:20:31 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:23:09 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:31:29 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:32:45 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:34:52 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 01:37:59 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:40:45 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:47:38 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:54:27 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:56:06 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 01:58:51 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 01:59:57 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:01:58 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 02:02:38 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:06:10 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 02:12:53 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:15:48 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 02:20:39 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 02:23:58 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:29:58 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 02:37:20 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:41:41 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 02:46:40 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:47:06 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:52:40 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 02:55:23 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:03:12 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:03:49 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 03:09:25 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 03:15:30 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 03:20:40 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:21:37 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:23:04 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:32:19 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 03:36:59 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 03:38:32 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:38:47 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:42:07 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 03:43:44 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 03:54:24 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:01:21 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 04:12:09 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:12:34 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:12:49 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:27:11 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:30:02 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:35:46 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 04:36:45 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:43:30 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:47:10 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 04:49:53 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 04:55:08 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:09:25 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:11:07 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:11:07 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:18:54 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:29:06 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:29:37 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:35:35 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 05:37:52 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 05:39:48 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:40:39 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:83
+2019-07-05 05:40:56 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:45:44 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 05:46:15 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 05:54:51 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 06:09:28 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 06:14:59 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 06:30:15 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 06:34:43 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 06:36:21 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 06:37:48 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 06:41:59 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 06:43:47 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 06:47:31 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 06:53:00 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 06:54:47 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 06:57:48 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 06:59:32 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:01:16 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:04:06 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:04:21 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:09:32 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 07:13:03 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 07:13:40 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:14:08 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 07:14:57 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:27:59 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:33:55 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:35:09 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:38:41 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 07:45:25 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:46:38 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 07:52:01 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:54:47 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 07:58:42 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:01:36 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 08:02:14 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:02:58 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:04:05 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:83
+2019-07-05 08:05:52 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:07:09 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:12:10 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:12:24 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 08:13:39 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 08:13:39 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:15:04 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:27:29 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:34:41 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:36:11 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:37:26 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:39:18 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 08:44:51 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:50:03 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:52:48 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 08:58:52 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:06:08 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 09:07:22 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:08:11 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:09:16 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:10:01 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:13:04 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:16:17 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:24:46 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 09:29:19 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:29:19 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:45:15 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:47:20 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 09:56:10 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:00:19 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:12:37 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:17:54 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:18:34 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 10:21:21 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:23:31 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:26:23 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:31:29 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 10:32:24 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:38:33 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:40:08 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:43:17 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 10:46:15 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 10:49:57 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:50:34 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 10:53:49 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 10:54:44 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:05:05 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:14:38 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 11:15:06 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:19:51 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:24:31 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:34:01 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:36:41 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:42:25 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:43:07 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:43:25 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:45:23 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 11:46:44 上午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 11:53:51 上午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:06:48 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 12:10:30 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:15:52 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 12:18:06 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 12:18:33 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 12:33:40 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:41:19 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:46:37 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:50:42 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 12:51:56 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:54:18 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:54:25 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:56:05 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 12:58:34 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 13:02:00 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 13:12:45 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 13:15:32 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 13:24:29 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 13:32:21 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 13:37:24 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 13:43:22 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 13:46:21 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 13:51:27 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:07:10 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:07:42 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:11:20 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:12:42 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 14:20:19 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 14:20:22 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:26:55 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:28:04 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:37:31 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:37:55 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 14:49:17 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 15:20:57 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 15:23:55 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 15:24:11 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 15:30:13 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 15:36:29 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 15:44:38 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 15:45:41 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 15:50:08 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:10
+2019-07-05 16:02:31 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 16:16:41 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 16:32:41 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 16:33:57 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 16:44:12 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 16:47:10 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 16:48:31 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 16:56:15 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 17:07:54 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 17:17:22 下午[ Method: ble.BleController.handle_cmd(BleController.java:296) ]
+ERROR:verfy cmd error:
+2019-07-05 17:18:02 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 17:24:31 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 17:26:14 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49
+2019-07-05 17:27:57 下午[ Method: ble.BleAdvDataHandler.sensorDataPrase(BleAdvDataHandler.java:164) ]
+ERROR:adv format error,adv len:49

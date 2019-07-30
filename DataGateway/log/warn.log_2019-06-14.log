@@ -1,0 +1,22 @@
+2019-06-14 09:11:22 上午[ Method: mqtt.MqttHandler$1.connectionLost(MqttHandler.java:89) ]
+ERROR:connectionLost
+2019-06-14 09:11:22 上午[ Method: mqtt.MqttHandler.publishTopic(MqttHandler.java:176) ]
+ERROR:已断开连接 (32109) - java.net.SocketException: Connection reset
+2019-06-14 09:11:22 上午[ Method: mqtt.MqttMsgSendHandlerThread.run(MqttMsgSendHandlerThread.java:44) ]
+ERROR:mqtt send msg error
+2019-06-14 09:11:23 上午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:45) ]
+ERROR:mqttHandler error
+2019-06-14 10:45:02 上午[ Method: mqtt.MqttHandler$1.connectionLost(MqttHandler.java:89) ]
+ERROR:connectionLost
+2019-06-14 10:45:02 上午[ Method: mqtt.MqttHandler.publishTopic(MqttHandler.java:176) ]
+ERROR:已断开连接 (32109) - java.net.SocketException: Connection reset
+2019-06-14 10:45:02 上午[ Method: mqtt.MqttMsgSendHandlerThread.run(MqttMsgSendHandlerThread.java:44) ]
+ERROR:mqtt send msg error
+2019-06-14 10:45:03 上午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:45) ]
+ERROR:mqttHandler error
+2019-06-14 16:34:11 下午[ Method: ble.BleController.readPort(BleController.java:401) ]
+ERROR:data collector read uart error
+2019-06-14 16:34:14 下午[ Method: ble.BleController.readPort(BleController.java:404) ]
+ERROR:java.io.IOException: No error in nativeavailable
+2019-06-14 16:34:23 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:71) ]
+ERROR:bleController error

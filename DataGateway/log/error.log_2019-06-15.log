@@ -1,0 +1,8 @@
+2019-06-15 13:48:02 下午[ Method: mqtt.MqttHandler$1.connectionLost(MqttHandler.java:89) ]
+ERROR:connectionLost
+2019-06-15 13:48:02 下午[ Method: mqtt.MqttHandler.publishTopic(MqttHandler.java:176) ]
+ERROR:已断开连接 (32109) - java.net.SocketException: Connection reset
+2019-06-15 13:48:02 下午[ Method: mqtt.MqttMsgSendHandlerThread.run(MqttMsgSendHandlerThread.java:44) ]
+ERROR:mqtt send msg error
+2019-06-15 13:48:04 下午[ Method: app.DataGateWayApp$1.run(DataGateWayApp.java:45) ]
+ERROR:mqttHandler error
