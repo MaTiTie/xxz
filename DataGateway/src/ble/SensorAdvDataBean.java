@@ -11,7 +11,7 @@ public class SensorAdvDataBean {
 	public static final int SENSOR_DATA_TYPE_HEARTRATE=3;
 	public static final int SENSOR_DATA_TYPE_GSENSOR=1;
 	public static final int SENSOR_DATA_TYPE_CHECK_STOCK=2;
-	public static final int SENSOR_DATA_TYPE_CHARGE=4;
+	public static final int SENSOR_DATA_TYPE_UNBIND=4;
     int sensorState;
     int sensorType;
     int firmwareVersion;

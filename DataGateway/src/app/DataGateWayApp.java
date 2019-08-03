@@ -18,7 +18,7 @@ import util.CommonFunc;
 import util.Config;
 
 public class DataGateWayApp {
-	private static  float fmVersion=2.82f;
+	private static  float fmVersion=2.83f;
 	static MqttHandler mqtt=null;
 	static BleController bleController=null;
 	public static String arg=null;

@@ -29,7 +29,7 @@ public class BleAdvDataHandler{
                 {
                 	sensorAdvDatasList.clear();
 	            }
-				if(data.sensorState==SensorAdvDataBean.SENSOR_STATE_CHARGING||data.sensorState==SensorAdvDataBean.SENSOR_STATE_NOT_INIT_NOT_USE)
+				if(data.sensorState==SensorAdvDataBean.SENSOR_STATE_CHARGING||(data.sensorState==SensorAdvDataBean.SENSOR_STATE_NOT_INIT_NOT_USE&&data.sensorDataType==SensorAdvDataBean.SENSOR_DATA_TYPE_HEARTRATE)||data.sensorDataType==SensorAdvDataBean.SENSOR_DATA_TYPE_UNBIND)
 				{
 					//ubind
 					JSONArray unbindJsonArray=new JSONArray();
