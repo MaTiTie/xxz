@@ -1,7 +1,12 @@
 package brand;
 
+import java.util.Date;
+
+import org.apache.log4j.Logger;
+
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+
 import ble.SensorGoodsInfoUpdateBean;
 import ble.SensorGoodsInfoUpdateHandler;
 import gls.GlsEpdUpdate;
@@ -12,10 +17,18 @@ import shop.ShopInfo;
 import util.StringUtil;
 
 public class EpdInfoUpdateHandler {
-	
+	 private static  Logger logger = Logger.getLogger(EpdInfoUpdateHandler.class); // 1. create log  
 	public static void epdInfoUpdateHandler(JSONObject updateData)
 	{
-		System.out.println(updateData.toJSONString());
+		//System.out.println(updateData.toJSONString());
+		long cmdTime=updateData.getLongValue("time");
+		long current_time=new Date().getTime();
+		System.out.print("epd update msg:"+cmdTime+"cu:"+current_time);
+		if((current_time-cmdTime)>1000*60*60*3) //if cmd comes 3 hours later,then ignore the cmd
+		{
+			logger.error("epd update msg comes time out");
+			return;
+		}
 		if(ShopInfo.shopType.equals("KC"))//brand kc
 		   {	 		 
 	 		  JSONObject data=( updateData.getJSONObject("params")).getJSONArray("data").getJSONObject(0);
@@ -126,7 +139,7 @@ public class EpdInfoUpdateHandler {
 	 			 {
 	 				goodsEtagInfoBean.qrcode="http://mttsmart.com/device/"+sensorMacAddr;
 	 			 }
-	 			 System.out.println(goodsEtagInfoBean.toString());
+	 			 //System.out.println(goodsEtagInfoBean.toString());
 	 			 SensorGoodsInfoUpdateBean goodsInfoUpdateBean=new SensorGoodsInfoUpdateBean();
 	 			 goodsInfoUpdateBean.sensorMacAddr=sensorMacAddr;
 	 			 goodsInfoUpdateBean.deviceType=deviceType;

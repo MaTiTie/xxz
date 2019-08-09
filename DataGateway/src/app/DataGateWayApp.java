@@ -18,7 +18,7 @@ import util.CommonFunc;
 import util.Config;
 
 public class DataGateWayApp {
-	private static  float fmVersion=2.83f;
+	private static  float fmVersion=2.84f;
 	static MqttHandler mqtt=null;
 	static BleController bleController=null;
 	public static String arg=null;
@@ -228,7 +228,7 @@ public class DataGateWayApp {
 		if(newAppVersionStr!=null)
 		{
 			float newAppVersionFlt=Float.parseFloat(newAppVersionStr);
-			if(newAppVersionFlt-fmVersion>0.05)
+			if(newAppVersionFlt-fmVersion>0.001)
 			{
 				logger.error("last upgrate error,new version is:"+newAppVersionFlt+"current version is:"+fmVersion);
 				logger.debug("start upgrade app");
@@ -258,7 +258,7 @@ public class DataGateWayApp {
 		else
 		{
 			float lastAppVersionFlt=Float.parseFloat(lastAppVersionStr);
-			if(fmVersion-lastAppVersionFlt>0.05)
+			if(fmVersion-lastAppVersionFlt>0.001)
 			{
 				logger.debug("upgrade gateway firmware success");
 				Config.saveInfo("appVersion",Float.toString(fmVersion), runtimePath);

@@ -1,5 +1,6 @@
 package ble;
 
+import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.ConcurrentHashMap;
@@ -11,6 +12,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 import app.GatewayInfo;
+import brand.EpdInfoUpdateHandler;
 import gnu.io.SerialPort;
 import mqtt.MqttEventMsgBean;
 import mqtt.MqttMsgSendHandlerThread;
@@ -153,7 +155,16 @@ public static  void stopCmdExec() {
 }
 public static void updateFinishResultHandler(JSONObject payloadData)
 {
+	long cmdTime=payloadData.getLongValue("time");
+	long current_time=new Date().getTime();
+	System.out.print("epd update reply:"+cmdTime+"cu:"+current_time);
+	if((current_time-cmdTime)>1000*60*60*3) //if cmd comes 3 hours later,then ignore the cmd
+	{
+		logger.error("epd update reply msg comes time out");
+		return;
+	}
 	  JSONObject data=( payloadData.getJSONObject("params")).getJSONArray("data").getJSONObject(0);
+	  String uid=data.getString("uid");
 	  JSONArray detail=data.getJSONArray("detail");
 	  JSONObject updateRsultInfo=detail.getJSONObject(0);
 	  int code= updateRsultInfo.getIntValue("code");
@@ -162,11 +173,29 @@ public static void updateFinishResultHandler(JSONObject payloadData)
 	  {
 		  return;
 	  }
+	  else
+	  {
+		 if(!SensorGoodsInfoUpdateHandler.neededUpdateGoodsInfoSensorList.containsKey(sensorMacAddr))
+		 {
+			 return ;
+		 }
+		 else
+		 {
+			 String listUid=SensorGoodsInfoUpdateHandler.neededUpdateGoodsInfoSensorList.get(sensorMacAddr).uid;
+			 if(listUid!=null)
+			 {
+				 if(!uid.equals(listUid)) //
+				 {
+					 logger.error("update reply,but uid not match");
+					 return;
+				 }
+			 }
+		 }
+	  }
 	  if(code==CommonCode.SUCCESS)
 	  {
 		  logger.debug("update sensor:"+sensorMacAddr +"success");
 		  SensorGoodsInfoUpdateHandler.neededUpdateGoodsInfoSensorList.remove(sensorMacAddr);
-		  
 	  }
 	  else
 	  {
