@@ -12,7 +12,6 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 import app.GatewayInfo;
-import brand.EpdInfoUpdateHandler;
 import gnu.io.SerialPort;
 import mqtt.MqttEventMsgBean;
 import mqtt.MqttMsgSendHandlerThread;
@@ -157,7 +156,7 @@ public static void updateFinishResultHandler(JSONObject payloadData)
 {
 	long cmdTime=payloadData.getLongValue("time");
 	long current_time=new Date().getTime();
-	System.out.print("epd update reply:"+cmdTime+"cu:"+current_time);
+	logger.debug("epd update reply:"+cmdTime+"cu:"+current_time);
 	if((current_time-cmdTime)>1000*60*60*3) //if cmd comes 3 hours later,then ignore the cmd
 	{
 		logger.error("epd update reply msg comes time out");

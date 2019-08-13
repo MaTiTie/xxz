@@ -160,6 +160,10 @@ public class GatewayInfo {
 			sensorHeartbeatJson.put("deviceType", "60");
 			sensorHeartbeatJson.put("deviceId", GatewayInfo.clientId);
 			sensorHeartbeatJson.put("getwayVersion", GatewayInfo.firewareVersion);
+			String networkBoardMacAddr=CommonFunc.getMACAddress();
+			sensorHeartbeatJson.put("networkBoardMacAddr", networkBoardMacAddr);
+			String ipAddr=CommonFunc.getLocalIpAddr();
+			sensorHeartbeatJson.put("ipAddr", ipAddr);
 			sensorHeartbeatJson.put("os", GatewayInfo.systemOs);
 			sensorHeartbeatJson.put("bleAdapterFirmwareVersion", GatewayInfo.bleAdapterFirmwareVersion);
 			sensorHeartbeatJson.put("time", dateFormat.format(new Date()));

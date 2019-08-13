@@ -23,7 +23,7 @@ public class EpdInfoUpdateHandler {
 		//System.out.println(updateData.toJSONString());
 		long cmdTime=updateData.getLongValue("time");
 		long current_time=new Date().getTime();
-		System.out.print("epd update msg:"+cmdTime+"cu:"+current_time);
+		logger.debug("epd update msg:"+cmdTime+"cu:"+current_time);
 		if((current_time-cmdTime)>1000*60*60*3) //if cmd comes 3 hours later,then ignore the cmd
 		{
 			logger.error("epd update msg comes time out");
@@ -42,23 +42,27 @@ public class EpdInfoUpdateHandler {
 	 			 String deviceType=updateInfo.getString("deviceType");
 	 			 JSONObject goodsInfo=updateInfo.getJSONObject("stock");
 	 			 KcGoodsEtagInfoBean goodsEtagInfoBean=new KcGoodsEtagInfoBean();
-	 			 Integer retailPrice=goodsInfo.getInteger("retailPrice");
+	 			 String retailPrice=goodsInfo.getString("retailPrice");
 	 			 if(retailPrice!=null)
 	 			 {
-	 				 goodsEtagInfoBean.retailPrice=Integer.toString(retailPrice);
+	 				 goodsEtagInfoBean.retailPrice=retailPrice;
+	 				 if(goodsEtagInfoBean.retailPrice.length()==0)
+		 			 {
+		 				goodsEtagInfoBean.retailPrice="N";
+		 			 }
 	 			 }
 	 			 else {
-	 				goodsEtagInfoBean.retailPrice="";
+	 				goodsEtagInfoBean.retailPrice="N";
 				}
-	 			 Integer suggRetailPrice=goodsInfo.getInteger("suggRetailPrice");
+	 			 String suggRetailPrice=goodsInfo.getString("suggRetailPrice");
 	 			 if(suggRetailPrice==null)
 	 			 {
 	 				goodsEtagInfoBean.suggRetailPrice="N";
 	 			 }
 	 			 else
 	 			 {
-		 			 goodsEtagInfoBean.suggRetailPrice=Integer.toString(suggRetailPrice);
-		 			 if(goodsEtagInfoBean.suggRetailPrice.length()==0||suggRetailPrice.intValue()==0)
+		 			 goodsEtagInfoBean.suggRetailPrice=suggRetailPrice;
+		 			 if(goodsEtagInfoBean.suggRetailPrice.length()==0)
 		 			 {
 		 				goodsEtagInfoBean.suggRetailPrice="N";
 		 			 }
@@ -137,7 +141,7 @@ public class EpdInfoUpdateHandler {
 	 			 }
 	 			 else
 	 			 {
-	 				goodsEtagInfoBean.qrcode="http://mttsmart.com/device/"+sensorMacAddr;
+	 				goodsEtagInfoBean.qrcode="http://mttsmart.com/etag/"+sensorMacAddr;
 	 			 }
 	 			 //System.out.println(goodsEtagInfoBean.toString());
 	 			 SensorGoodsInfoUpdateBean goodsInfoUpdateBean=new SensorGoodsInfoUpdateBean();

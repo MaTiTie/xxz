@@ -18,7 +18,7 @@ import util.CommonFunc;
 import util.Config;
 
 public class DataGateWayApp {
-	private static  float fmVersion=2.84f;
+	private static  float fmVersion=2.87f;
 	static MqttHandler mqtt=null;
 	static BleController bleController=null;
 	public static String arg=null;
@@ -26,6 +26,7 @@ public class DataGateWayApp {
 	static int periodTimerCount=0;
 	public static String runtimePath=".";
 	static String appVersion=null;
+	public static int mqttReconnCount=0;
 	private  static Logger logger= Logger.getLogger(DataGateWayApp.class); // 1. create log   
 	public static void main(String[] args) {
 		prepareStart(args);	
@@ -42,6 +43,7 @@ public class DataGateWayApp {
 	        	 logger.debug("Serial Buffer length:"+BleController.checkDataIndex);
 	             if(!MqttHandler.mqttHandlerStateCheck)
 	             {  
+	            	 mqttReconnCount++;
 	            	 GatewayInfo.gatewayStateLedIndicate("disconnect");
 	            	 logger.error("mqttHandler error");
 	            	 try {
@@ -52,10 +54,20 @@ public class DataGateWayApp {
 						// TODO: handle exception
 	            		 logger.debug(e.toString());
 					}
-	            	 	            	
+	            	 if(mqttReconnCount>5)
+	            	 {
+	            		 mqttReconnCount=0;
+	            		 try {
+							Runtime.getRuntime().exec("sudo reboot");
+						} catch (IOException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+	            	 } 	            	
 	             }
 	             else
-	             {            	 
+	             {   
+	            	 mqttReconnCount=0;
 	            	 if(periodTimerCount>=10)
 	            	 {
 	            		 periodTimerCount=0;
