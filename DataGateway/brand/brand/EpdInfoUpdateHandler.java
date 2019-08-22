@@ -150,6 +150,10 @@ public class EpdInfoUpdateHandler {
 	 			 goodsInfoUpdateBean.epdInfoLogDetailId=epdInfoLogDetailId;
 	 			 goodsInfoUpdateBean.epdInfoLogId=epdInfoLogId;
 	 			 goodsInfoUpdateBean.goodsEatgInfoBean=goodsEtagInfoBean;
+	 			 if( SensorGoodsInfoUpdateHandler.neededUpdateGoodsInfoSensorList.contains(sensorMacAddr))
+	 			 {
+	 				SensorGoodsInfoUpdateHandler.neededUpdateGoodsInfoSensorList.get(sensorMacAddr).updateGoodsInfoTimeout.cancel();
+	 			 }
 	 			 SensorGoodsInfoUpdateHandler.neededUpdateGoodsInfoSensorList.put(sensorMacAddr, goodsInfoUpdateBean);
 	 		  } 		  
 		   }

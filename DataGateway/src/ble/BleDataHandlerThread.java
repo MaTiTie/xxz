@@ -8,6 +8,7 @@ import app.DataGateWayApp;
 import app.GatewayInfo;
 import brand.EpdInfoUpdateHandler;
 import shop.ShopInfo;
+import util.CommonCode;
 import util.CommonFunc;
 import util.SerialCmd;
 
@@ -18,22 +19,29 @@ public class BleDataHandlerThread extends Thread{
 	private static Timer periodTimer=null;
 	public BleDataHandlerThread() {
 		// TODO Auto-generated constructor stub
-		if(periodTimer==null) {
+		if(periodTimer==null)
+		{
 			periodTimer=new Timer();
+		}
 			periodTimer.schedule(new TimerTask() {
 		         @Override
 		         public void run() {
 		        	 logger.debug("------------period timer!------------");
 		        	 periodTimerCount++;
+		        	 try {
 		        	 BleAdvDataHandler.reportOrignalAdvData();
+		        	 }
+		        	 catch (Exception e) {
+						// TODO: handle exception
+		            	 logger.error(e.getMessage());
+					}
 		        	 if(periodTimerCount==60)
 		        	 {
 		        		 periodTimerCount=0;
 		        	    // BleAdvDataHandler.sensorStatehandler();
 		        	 }	            
 		         }
-		     }, 10000 , 10000); 
-		}
+		     }, 10000 , 10000); 	
 	}
 	public static void appendUartBleDataList(UartBleDataBean data) {
 		synchronized (uartBleDataList)
@@ -69,7 +77,6 @@ public class BleDataHandlerThread extends Thread{
         	logger.error(e.toString());
         	uartBleDataList.remove(0);
         	DataGateWayApp.uartBleDataHandler();
-            e.printStackTrace();
         }
 	}
 	

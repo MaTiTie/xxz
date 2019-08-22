@@ -18,7 +18,7 @@ import util.CommonFunc;
 import util.Config;
 
 public class DataGateWayApp {
-	private static  float fmVersion=2.87f;
+	private static  float fmVersion=2.88f;
 	static MqttHandler mqtt=null;
 	static BleController bleController=null;
 	public static String arg=null;
@@ -27,17 +27,60 @@ public class DataGateWayApp {
 	public static String runtimePath=".";
 	static String appVersion=null;
 	public static int mqttReconnCount=0;
+	public static volatile boolean watchdogSignal=false;
 	private  static Logger logger= Logger.getLogger(DataGateWayApp.class); // 1. create log   
 	public static void main(String[] args) {
+		//randomDelay();
 		prepareStart(args);	
 		logger.error("------------------------start gateway app-----------------------------\r\n");
 		periodStateCheckTimer();
+		watchdogThread();
 		startApp();
 	}
+	public static void watchdogThread()
+	{
+		Thread watchdogThread=new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				try {
+					Thread.sleep(65000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				if(watchdogSignal==false)
+				{
+					 try {
+            			 logger.error("watdog timeout,exec reboot");
+						Runtime.getRuntime().exec("sudo reboot");
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+				watchdogSignal=false;
+				
+			}
+		});
+		watchdogThread.start();
+	}
+	public static void randomDelay()
+	{
+		int delayTime=(int)(1+Math.random()*1000)*60;  //delay time is 0s-60s
+		try {
+			Thread.sleep(delayTime);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	public static void periodStateCheckTimer() {
-		new Timer().schedule(new TimerTask() {
+		new Timer().scheduleAtFixedRate(new TimerTask() {
 	         @Override
 	         public void run() {
+	        	 watchdogSignal=true;
 	        	 logger.debug("---------state check period timer start----------");
 	        	 periodTimerCount++;
 	        	 logger.debug("Serial Buffer length:"+BleController.checkDataIndex);
@@ -58,6 +101,7 @@ public class DataGateWayApp {
 	            	 {
 	            		 mqttReconnCount=0;
 	            		 try {
+	            			 logger.error("mqtt not work,exec reboot");
 							Runtime.getRuntime().exec("sudo reboot");
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -71,19 +115,25 @@ public class DataGateWayApp {
 	            	 if(periodTimerCount>=10)
 	            	 {
 	            		 periodTimerCount=0;
-	            		 GatewayInfo.gatewayHeartbeatReport();
-	            		 if(GatewayInfo.shopId==null)
-		            	 {
-		            		 ShopInfo.shopConfigInfoRequest();
-		            	 }
+	            		 try
+	            		 {
+	            			 GatewayInfo.gatewayHeartbeatReport();
+	            			 if(GatewayInfo.shopId==null)
+			            	 {
+			            		 ShopInfo.shopConfigInfoRequest();
+			            	 }
+	            		 }catch(Exception e)
+	            		 {
+	            			 logger.error(e.getMessage());
+	            		 }            		
 	            	 }
 	             }
 	             if(!BleController.bleControllerStateCheck)
 	             {  
-	            	 GatewayInfo.deviceExceptionReport(CommonCode.GATEWAY_EXCEPTION);
-	            	 logger.error("bleController error");
 	            	 try 
 	            	 {
+	            		 GatewayInfo.deviceExceptionReport(CommonCode.GATEWAY_EXCEPTION);
+		            	 logger.error("bleController error");
 		            	 bleController.interrupt();
 		            	 bleController=new BleController();
 		            	 bleController.setName("bleController");
