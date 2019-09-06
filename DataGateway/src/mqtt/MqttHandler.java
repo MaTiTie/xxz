@@ -67,11 +67,11 @@ public class MqttHandler{
 	        MqttConnectOptions connOpts = new MqttConnectOptions();
 	       // connOpts.
 	        // 鍦ㄩ噸鏂板惎鍔ㄥ拰閲嶆柊杩炴帴鏃惰浣忕姸鎬�
-	        connOpts.setCleanSession(false);
+	        connOpts.setCleanSession(true);
 	        // 璁剧疆杩炴帴鐨勭敤鎴峰悕
 	        connOpts.setUserName(userName);
 	        connOpts.setAutomaticReconnect(false);
-	        connOpts.setKeepAliveInterval(90);
+	        connOpts.setKeepAliveInterval(120);
 	        //connOpts.setMaxReconnectDelay(100000);
 	        connOpts.setPassword(password.toCharArray());
 	        // 寤虹珛杩炴帴
