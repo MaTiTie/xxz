@@ -2,6 +2,7 @@ package app;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.Timer;
 import java.util.TimerTask;
 import org.apache.log4j.Logger;
@@ -18,7 +19,7 @@ import util.CommonFunc;
 import util.Config;
 
 public class DataGateWayApp {
-	private static  float fmVersion=2.88f;
+	private static  float fmVersion=2.90f;
 	static MqttHandler mqtt=null;
 	static BleController bleController=null;
 	public static String arg=null;
@@ -31,6 +32,18 @@ public class DataGateWayApp {
 	private  static Logger logger= Logger.getLogger(DataGateWayApp.class); // 1. create log   
 	public static void main(String[] args) {
 		//randomDelay();
+		Thread.setDefaultUncaughtExceptionHandler(  new UncaughtExceptionHandler() {	
+			@Override
+			public void uncaughtException(Thread t, Throwable e) {
+				// TODO Auto-generated method stub
+				try {
+					Runtime.getRuntime().exec("sudo reboot");
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
 		prepareStart(args);	
 		logger.error("------------------------start gateway app-----------------------------\r\n");
 		periodStateCheckTimer();
@@ -39,11 +52,13 @@ public class DataGateWayApp {
 	}
 	public static void watchdogThread()
 	{
-		Thread watchdogThread=new Thread(new Runnable() {
-			
+		Thread watchdogThread=new Thread(new Runnable() {	
 			@Override
 			public void run() {
+				logger.debug("watchdog thread loop start");
 				// TODO Auto-generated method stub
+				while(true)
+				{
 				try {
 					Thread.sleep(65000);
 				} catch (InterruptedException e) {
@@ -54,16 +69,35 @@ public class DataGateWayApp {
 				{
 					 try {
             			 logger.error("watdog timeout,exec reboot");
+            			 try {
+         					Thread.sleep(1000);
+         				} catch (InterruptedException e) {
+         					// TODO Auto-generated catch block
+         					e.printStackTrace();
+         				}
 						Runtime.getRuntime().exec("sudo reboot");
 					} catch (IOException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				}
-				watchdogSignal=false;
-				
+				watchdogSignal=false;			
+			}
 			}
 		});
+		watchdogThread.setUncaughtExceptionHandler(new UncaughtExceptionHandler(){
+	@Override
+	public void uncaughtException(Thread t, Throwable e) {
+		// TODO Auto-generated method stub
+		try {
+			Runtime.getRuntime().exec("sudo reboot");
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	}
+		}
+);
 		watchdogThread.start();
 	}
 	public static void randomDelay()
@@ -210,7 +244,6 @@ public class DataGateWayApp {
 		mqtt.setMqttServerConfigInfo(GatewayInfo.mqttBroker, GatewayInfo.mqttUserName, GatewayInfo.mqttPassword);
 		if(mqtt.mqttConnect())
 		{	
-			GatewayInfo.gatewayHeartbeatReport();
 			ShopInfo.shopConfigInfoRequest();
 		}
 		else
